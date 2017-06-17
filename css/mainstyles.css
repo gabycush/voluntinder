@@ -12,7 +12,7 @@ h1, h2 {
     color: white;
 }
 
-h3 {
+h2.pg-spec-title, h3 {
     text-align: center;
     font-family: 'Dosis', sans-serif;
     color:#78BDE7;
@@ -161,7 +161,9 @@ label {
 
 main{
   background-image: url('https://files.slack.com/files-pri/T4X17BNEN-F5W6GFKQX/bestfuckingbanner.jpg');
+  height:100%;
 }
+
 
 footer{
   position:relative;
