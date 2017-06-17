@@ -13,6 +13,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Patrick+Hand+SC" rel="stylesheet">
   <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase-messaging.js"></script>
+  <script src="database.js"></script>
+
 
 </head>
 
@@ -21,7 +27,7 @@
     <div class="row column">
       <!--Header-->
       <h1>volun<span class="tinder">tinder</span></h1>
-      <h1 id="bigOne"></h1>
+      <h2 id="bigOne"></h2>
       <h2>Quickly and easily find opportunities around Indianapolis <br /> to engage in volunteerism and philanthropy.</h2>
     </div>
   </header>
@@ -96,22 +102,6 @@
   </div>
 
   <script src="js/foundation-6.3.1-complete/js/vendor/jquery.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyCxQcyAtLljNQGW-oxJPs-rdGEX_844on4",
-      authDomain: "voluntinder-7d086.firebaseapp.com",
-      databaseURL: "https://voluntinder-7d086.firebaseio.com",
-      projectId: "voluntinder-7d086",
-      storageBucket: "voluntinder-7d086.appspot.com",
-      messagingSenderId: "410571217612"
-    };
-    firebase.initializeApp(config);
-
-    var bigOne = document.getElementById('bigOne')
-    var dbRef = firebase.database().ref().child("text")
-    dbRef.on('value', snap => bigOne.innerText = snap.val())
-  </script>
 </body>
 
 </html>

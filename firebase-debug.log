@@ -54,3 +54,31 @@
 [info] i  hosting: Serving hosting files from: ./
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2017-06-17T13:25:42.674Z] ----------------------------------------------------------------------
+[debug] [2017-06-17T13:25:42.677Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\thrif\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-17T13:25:42.678Z] CLI Version:  3.9.1
+[debug] [2017-06-17T13:25:42.678Z] Platform:     win32
+[debug] [2017-06-17T13:25:42.678Z] Node Version: v6.11.0
+[debug] [2017-06-17T13:25:42.678Z] Time:         Sat Jun 17 2017 09:25:42 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:42.678Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-17T13:25:42.691Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-17T13:25:42.692Z] > authorizing via signed-in user
+[debug] [2017-06-17T13:25:42.694Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/voluntinder-7d086  
+ Sat Jun 17 2017 09:25:42 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:43.114Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T13:25:43.115Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/voluntinder-7d086/tokens  
+ Sat Jun 17 2017 09:25:43 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:43.402Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\thrif\Documents\IndyCivicHack\Voluntinder'...
+[info] 
+[debug] [2017-06-17T13:25:43.412Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/voluntinder-7d086  
+ Sat Jun 17 2017 09:25:43 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:43.816Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T13:25:43.816Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/410571217612/clients/_:getWebAppConfig  
+ Sat Jun 17 2017 09:25:43 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:44.243Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
