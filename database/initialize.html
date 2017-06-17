@@ -12,13 +12,16 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
 </head>
 
 <body>
     This is some sample html
-    
+
+
     <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
     <script>
+
         // Initialize Firebase
         var config = {
             apiKey: "AIzaSyDYb3alA1l-dsfZ-FFri8d5Ac3oFFfKfVE",
@@ -28,9 +31,13 @@
             storageBucket: "voluntinder-8c7f9.appspot.com",
             messagingSenderId: "391444836477"
         };
-        firebase.initializeApp(config);
 
+        firebase.initializeApp(config);
     </script>
+
+    <!--Allows node.js to use "require" command-->
+    <script src="bundle.js"></script>
+
     <script src="index.js"></script>
 </body>
 

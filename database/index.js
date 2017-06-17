@@ -1,4 +1,4 @@
-import * as firebase from "firebase";
+var firebase = require("firebase");
 
 // // Initialize Firebase
 // // TODO: Replace with your project's customized code snippet
