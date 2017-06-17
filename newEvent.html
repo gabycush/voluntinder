@@ -9,55 +9,63 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
-    <link rel="stylesheet" href="css/mainstyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-  
+    <link rel="stylesheet" href="css/mainstyles.css">
+
+
 </head>
 
 <body>
     <header>
-      <div class="row column"><!--Header-->
+        <div class="row column">
+            <!--Header-->
             <h1 class="header">volun<span class="tinder">tinder</span></h1>
-      </div>
+        </div>
     </header>
-    <section><!--Page Title-->
-      <div class="row column">
-        <h2 class="pg-spec-title">New Event</h2>
-      </div>
-    </section>
-    <section><!--Sign Up  -->
-      <div class="row">
-        <div class="small-6 columns small-centered">
-          <form class="new-member">
-            <label class="new-member" name="Event-Name">Event Name</label>
-              <input class="new-member name" type="text" placeholder="Event Name..." />
-            <label class="new-member" name="Type-of-Event">Type of Event</label>
-            <select class="new-member email" type="email" placeholder="Select a type">
-                <option value="0">None</option>
-                <option value="1">Community Improvement</option>
-                <option value="2">Soup Kitchen</option>
-                <option value="3">Trash Pickup</option>
-                <option value="4">Veteran Assistance</option>
-                <option value="5">Home Improvement</option>
-                <option value="6">Caregiving</option>
-            </select>
-            <label class="new-member" name="Location">Location</label>
-              <input class="new-member password" type="text" placeholder="Location..." />
-            <label class="new-member" name="Description">Description</label>
-              <input class="new-member password-confirm" type="text" placeholder="Describe your event..." />
-            <label class="new-member" name="tags">Tags</label>
-              <input class="new-member password-confirm" type="text" placeholder="Keywords..." />
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-        <div class="small-6 columns">
+    <main>
+        <div class="NewEventForm">
+            <section>
+                <!--Page Title-->
+                <div class="row column">
+                    <h2 class="pg-spec-title">New Event</h2>
+                </div>
+            </section>
+            <section>
+                <!--Sign Up  -->
+                <div class="row">
+                    <div class="small-10 columns small-centered">
+                        <form class="new-event">
+                            <label class="new-event" name="Event-Name">Event Name</label>
+                            <input class="new-event name" type="text" placeholder="Event Name..." />
+                            <label class="new-event" name="Type-of-Event">Type of Event</label>
+                            <select class="new-event email" type="email" placeholder="Select a type">
+                            <option value="0">None</option>
+                            <option value="1">Community Improvement</option>
+                            <option value="2">Soup Kitchen</option>
+                            <option value="3">Trash Pickup</option>
+                            <option value="4">Veteran Assistance</option>
+                            <option value="5">Home Improvement</option>
+                            <option value="6">Caregiving</option>
+                        </select>
+                            <label class="new-event" name="Location">Location</label>
+                            <input class="new-event password" type="text" placeholder="Location..." />
+                            <label class="new-event" name="Description">Description</label>
+                            <input class="new-event password-confirm" type="text" placeholder="Describe your event..." />
+                            <label class="new-event" name="tags">Tags</label>
+                            <input class="new-event password-confirm" type="text" placeholder="Keywords..." />
+                            <button class="submitButton float-right" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="small-6 columns">
 
+                    </div>
+                    <div class="small-3 columns">
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="small-3 columns">
-        </div>
-      </div>
-    </section>
+    </main>
     <footer>
         &copy; 2017 Voluntinder LLC
     </footer>
@@ -65,4 +73,3 @@
 </body>
 
 </html>
-

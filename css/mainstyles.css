@@ -1,6 +1,7 @@
 body{
     background-color:#78BDE7;
-    color: white;
+    /**/
+    background-size: cover;
     font-family: 'Dosis', sans-serif;
     padding-bottom:3rem;
 }
@@ -13,6 +14,13 @@ h1, h2, h3 {
 
 h1, h2 {
     text-shadow: 1px 1px 3px black;
+}
+main > div {
+   background-color: rgba(255, 255, 255, 0.5);
+   width: 45%;
+   height:110%;
+   margin: 0 auto;
+   padding: 2rem 0;
 }
 
 header h1 {
@@ -27,13 +35,14 @@ header h1 {
 }
 
 header {
-  background-image: url('https://www.nch.ie/ArticleMedia/Images/branding/NationalConcertHall/NEW%20-%20Education/Community-144653342.jpg');
+  background-color:#78BDE7;
+  /*background-image: url('../imgs/site-assets/blueAndOrange2.jpg');*/
   background-size:cover;
   margin-bottom:2rem;
 }
 
 header div {
-  background-color: rgba(255, 255, 255, 0.5);
+ 
   padding-bottom:2rem;
 }
 
@@ -142,10 +151,17 @@ label {
   font-size: 1.2rem;
   color: white;
   clear:both;
+  text-shadow: 1px 1px 3px black;
+}
+
+main{
+  background-image: url('https://files.slack.com/files-pri/T4X17BNEN-F5W6GFKQX/bestfuckingbanner.jpg');
 }
 
 footer{
   position:absolute;
   bottom: 0;
   left: 45%;
+  background-color:#78BDE7;
+  color:white;
 }
