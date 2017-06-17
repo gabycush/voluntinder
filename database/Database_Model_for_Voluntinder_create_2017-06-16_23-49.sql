@@ -4,7 +4,7 @@
 -- tables
 -- Table: EventHost
 CREATE TABLE EventHost (
-    Id int NOT NULL,
+    Id int NOT NULL AUTO_INCREMENT,
     Organization_Id int NOT NULL,
     Events_Id int NOT NULL,
     CONSTRAINT EventHost_pk PRIMARY KEY (Id)
@@ -20,7 +20,7 @@ CREATE TABLE EventVisit (
 
 -- Table: Events
 CREATE TABLE Events (
-    Id int NOT NULL,
+    Id int NOT NULL AUTO_INCREMENT,
     name varchar(255) NOT NULL,
     date date NOT NULL,
     time time NOT NULL,
@@ -33,7 +33,7 @@ CREATE TABLE Events (
 
 -- Table: Individual
 CREATE TABLE Individual (
-    Id int NOT NULL,
+    Id int NOT NULL AUTO_INCREMENT,
     email varchar(255) NOT NULL,
     name varchar(255) NOT NULL,
     bio text NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE Individual (
 
 -- Table: Organization
 CREATE TABLE Organization (
-    Id int NOT NULL,
+    Id int NOT NULL AUTO_INCREMENT,
     email varchar(255) NOT NULL,
     name varchar(255) NOT NULL,
     address varchar(255) NOT NULL,
