@@ -19,6 +19,7 @@ header h1 {
   font-size: 6rem;
   font-family: 'Patrick Hand SC', cursive;
 }
+
 .tinder {
   font-size: 6rem;
   font-family: 'Indie Flower', cursive;
@@ -30,6 +31,7 @@ header {
   background-size:cover;
   margin-bottom:2rem;
 }
+
 header div {
   background-color: rgba(255, 255, 255, 0.5);
   padding-bottom:2rem;
@@ -44,9 +46,16 @@ header div {
   box-shadow: 1px 1px 1px grey;
   white-space: nowrap;
 }
+
 #customBtn:hover {
   cursor: pointer;
 }
+
+.logInButton{
+  float:right;
+}
+
+
 span.label {
   font-family: serif;
   font-weight: normal;
@@ -95,21 +104,26 @@ button {
   padding:1rem;
   border:1px solid white;
 }
+
 img.ev-img {
   width:15rem;
   padding:1rem;
 }
+
 h4.ev-title {
   text-align:center;
   font-family: 'Dosis', sans-serif;
 
 }
+
 p.ev-comp {
   float:left;
 }
+
 p.ev-date {
   float:right;
 }
+
 p.ev-desc {
   clear:both;
 }
@@ -118,12 +132,20 @@ input.namef {
   float:left;
   width:49%;
 }
+
 input.namel {
   float:right;
   width:49%;
 }
+
 label {
   font-size: 1.2rem;
   color: white;
   clear:both;
+}
+
+footer{
+  position:absolute;
+  bottom: 0;
+  left: 45%;
 }
