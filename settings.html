@@ -22,22 +22,22 @@
 
             <h2>Account Settings</h2>
 
-            <form>
+            <form id="account-settings-form">
 
-                <label>Change email: </label>
-                <input type="text" placeholder="Email"/>
+                <label for="change-email">Change email: </label>
+                <input type="text" placeholder="Email" name="change-email"/>
                 
-                <label>Change password: </label>
-                <input type="password" placeholder="Password"/>
+                <label for="change-password">Change password: </label>
+                <input type="password" placeholder="Password" name="change-password"/>
                 
-                <label>Privacy settings: </label>
-                <select name="" id="">
+                <label for="privacy">Privacy settings: </label>
+                <select name="privacy">
                     <option value="foodKitchen">Public</option>
                     <option value="charityRun">Only to other attendees</option>
                     <option value="litter">Private</option>
                 </select>
 
-                <input type="submit"><button>Save</button></input>
+                <input type="submit"><button id="save">Save</button></input>
 
             </form>
 
