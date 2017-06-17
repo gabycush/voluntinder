@@ -35,8 +35,38 @@ header div {
   padding-bottom:2rem;
 }
 
-header h2 {
+#customBtn {
+  display: inline-block;
+  background: white;
+  color: #78BDE7;
+  border-radius: 5px;
+  border: thin solid #888;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+}
+#customBtn:hover {
+  cursor: pointer;
+}
+span.label {
+  font-family: serif;
+  font-weight: normal;
+}
+span.buttonText {
+  font-size:1.2rem;
+  display: inline-block;
+  vertical-align: middle;
+  padding:1rem 2rem;
+  font-weight: bold;
+  /* Use the Roboto font that is loaded in the <head> */
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
   font-size: 1.8rem;
+}
+
+h2.pg-spec-title {
+  font-size: 2rem;
 }
 
 img.thumbnail {
@@ -51,14 +81,14 @@ p.login-signup {
     margin-bottom:5rem;
 }
 
-p.login-signup button {
+button {
     border: 1px solid white;
     background-color: white;
     color:#78BDE7;
     border-radius: 10%;
     padding:.5rem;
     font-family: 'Dosis', sans-serif;
-
+    font-size: 1.2rem;
 }
 
 .featured-event {
@@ -81,5 +111,19 @@ p.ev-date {
   float:right;
 }
 p.ev-desc {
+  clear:both;
+}
+
+input.namef {
+  float:left;
+  width:49%;
+}
+input.namel {
+  float:right;
+  width:49%;
+}
+label {
+  font-size: 1.2rem;
+  color: white;
   clear:both;
 }
