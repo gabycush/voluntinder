@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
+</head>
+
+<body>
+    This is some sample html
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+    <script>
+
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDYb3alA1l-dsfZ-FFri8d5Ac3oFFfKfVE",
+            authDomain: "voluntinder-8c7f9.firebaseapp.com",
+            databaseURL: "https://voluntinder-8c7f9.firebaseio.com",
+            projectId: "voluntinder-8c7f9",
+            storageBucket: "voluntinder-8c7f9.appspot.com",
+            messagingSenderId: "391444836477"
+        };
+
+        firebase.initializeApp(config);
+    </script>
+
+    <!--Allows node.js to use "require" command-->
+    <script src="bundle.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
