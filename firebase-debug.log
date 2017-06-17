@@ -1,0 +1,84 @@
+[debug] [2017-06-17T13:12:28.366Z] ----------------------------------------------------------------------
+[debug] [2017-06-17T13:12:28.369Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\thrif\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-17T13:12:28.369Z] CLI Version:  3.9.1
+[debug] [2017-06-17T13:12:28.370Z] Platform:     win32
+[debug] [2017-06-17T13:12:28.370Z] Node Version: v6.11.0
+[debug] [2017-06-17T13:12:28.370Z] Time:         Sat Jun 17 2017 09:12:28 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:12:28.370Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-17T13:12:28.383Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-17T13:12:28.383Z] > authorizing via signed-in user
+[debug] [2017-06-17T13:12:28.385Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/voluntinder-7d086  
+ Sat Jun 17 2017 09:12:28 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:12:28.956Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T13:12:28.959Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/voluntinder-7d086/tokens  
+ Sat Jun 17 2017 09:12:28 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:12:29.295Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\thrif\Documents\IndyCivicHack\Voluntinder'...
+[info] 
+[debug] [2017-06-17T13:12:29.306Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/voluntinder-7d086  
+ Sat Jun 17 2017 09:12:29 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:12:29.507Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T13:12:29.507Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/410571217612/clients/_:getWebAppConfig  
+ Sat Jun 17 2017 09:12:29 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:12:29.755Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T13:12:29.774Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-06-17T13:13:45.021Z] ----------------------------------------------------------------------
+[debug] [2017-06-17T13:13:45.024Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\thrif\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-17T13:13:45.024Z] CLI Version:  3.9.1
+[debug] [2017-06-17T13:13:45.024Z] Platform:     win32
+[debug] [2017-06-17T13:13:45.024Z] Node Version: v6.11.0
+[debug] [2017-06-17T13:13:45.025Z] Time:         Sat Jun 17 2017 09:13:45 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:13:45.025Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-17T13:13:45.036Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-17T13:13:45.036Z] > authorizing via signed-in user
+[debug] [2017-06-17T13:13:45.038Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/voluntinder-7d086  
+ Sat Jun 17 2017 09:13:45 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:13:45.368Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T13:13:45.369Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/voluntinder-7d086/tokens  
+ Sat Jun 17 2017 09:13:45 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:13:45.871Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\thrif\Documents\IndyCivicHack\Voluntinder'...
+[info] 
+[debug] [2017-06-17T13:13:45.881Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/voluntinder-7d086  
+ Sat Jun 17 2017 09:13:45 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:13:46.031Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T13:13:46.031Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/410571217612/clients/_:getWebAppConfig  
+ Sat Jun 17 2017 09:13:46 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:13:46.265Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-17T13:25:42.674Z] ----------------------------------------------------------------------
+[debug] [2017-06-17T13:25:42.677Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\thrif\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-17T13:25:42.678Z] CLI Version:  3.9.1
+[debug] [2017-06-17T13:25:42.678Z] Platform:     win32
+[debug] [2017-06-17T13:25:42.678Z] Node Version: v6.11.0
+[debug] [2017-06-17T13:25:42.678Z] Time:         Sat Jun 17 2017 09:25:42 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:42.678Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-17T13:25:42.691Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-17T13:25:42.692Z] > authorizing via signed-in user
+[debug] [2017-06-17T13:25:42.694Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/voluntinder-7d086  
+ Sat Jun 17 2017 09:25:42 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:43.114Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T13:25:43.115Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/voluntinder-7d086/tokens  
+ Sat Jun 17 2017 09:25:43 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:43.402Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\thrif\Documents\IndyCivicHack\Voluntinder'...
+[info] 
+[debug] [2017-06-17T13:25:43.412Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/voluntinder-7d086  
+ Sat Jun 17 2017 09:25:43 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:43.816Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-17T13:25:43.816Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/410571217612/clients/_:getWebAppConfig  
+ Sat Jun 17 2017 09:25:43 GMT-0400 (US Eastern Daylight Time)
+[debug] [2017-06-17T13:25:44.243Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
