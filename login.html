@@ -2,48 +2,67 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        
-        <header>
-            Voluntinder
-        </header>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-        <section>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+    <link rel="stylesheet" href="css/mainstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 
-            <section>Login</section>
+</head>
 
-            <form>
+<body>
 
-                <label for="email">Email: </label>
-                <input type="text" placeholder="Email"/>
+    <header>
+        <div class="row column">
+            <!--Header-->
+            <h1 class="header">volun<span class="tinder">tinder</span></h1>
+        </div>
+    </header>
+    <section>
+        <!--Page Title-->
+        <div class="row column">
+            <h2 class="pg-spec-title">Log In</h2>
+        </div>
+    </section>
+    <section>
+        <!--Sign Up  -->
+        <div class="row">
+            <div class="small-6 columns small-centered">
+                <form id="loginForm">
 
-                <label for="email">Password: </label>
-                <input type="password" placeholder="Password"/>
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" placeholder="Email" />
 
-                <input type="checkbox">Remember Me</input>
+                    <label for="email">Password: </label>
+                    <input type="password" name="password" placeholder="Password" />
 
-                <input type="submit"><button>Sign in</button></input>
-                
-            </form>
+                    <input type="checkbox" name="rememberMe">Remember Me</input>
 
-            <span>or</span>
+                    <button type="submit" class ="logInButton">Log In</button>
 
-            <button>Sign in with Facebook</button>
-            <button>Sign in with Google+</button>
+                </form>
+            </div>
+            <div class="small-6 columns">
 
-        </section>
-        
-        <footer>
-            &copy; 2017 Voluntinder LLC
-        </footer>
+            </div>
+            <div class="small-3 columns">
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2017 Voluntinder LLC
+    </footer>
+    
 
-    </body>
+</body>
+
 </html>
