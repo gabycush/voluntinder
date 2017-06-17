@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New Event</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        Voluntinder
+    </header>
+
+
+    <form id="new-event-form">
+
+        <aside>
+            <section>
+                <img id="event-img" src="https://image.flaticon.com/icons/png/128/276/276964.png" />
+                <button id="edit-photo">Edit Photo</button>
+            </section>
+
+            <section>
+                <label for="date">Date</label>
+                <input type="date" name="date" />
+            </section>
+        </aside>
+
+        <section>
+            <h1>New Event</h1>
+
+
+            <label for="event-name">Event Name</label>
+            <input type="text" name="event-name" />
+
+            <label for="event-type">Type of Event</label>
+            <select name="event-type">
+                    <option value="food-kitchen">Food Kitchen</option>
+                    <option value="charity-run">Charity Run</option>
+                    <option value="litter">Garbage Cleaning</option>
+                </select>
+
+            <label for="event-location">Location</label>
+            <input type="text" name="event-location" />
+
+            <label for="event-description">Description</label>
+            <textarea name="event-description"></textarea>
+
+            <label for="event-tags">Tags</label>
+            <input type="text" name="event-tags" />
+
+            <input type="submit"><button id="save">Save Changes</button></input>
+            <button id="cancel">Cancel</button>
+
+        </section>
+
+    </form>
+
+    <footer>
+        &copy; 2017 Voluntinder LLC
+    </footer>
+
+</body>
+
+</html>
