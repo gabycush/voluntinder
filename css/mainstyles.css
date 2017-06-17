@@ -44,7 +44,7 @@ header {
   background-color:#78BDE7;
   /*background-image: url('../imgs/site-assets/blueAndOrange2.jpg');*/
   background-size:cover;
-  margin-bottom:2rem;
+  margin-bottom:1rem;
 }
 
 header div {
@@ -130,6 +130,22 @@ h4.ev-title {
 
 }
 
+img.arrow {
+  width:35px;
+  height:35px;
+  margin-top:10rem;
+}
+
+img.ev-img.big {
+  width:20rem;
+  padding:1rem;
+}
+p.ev-desc.big {
+  clear:both;
+  height:10rem;
+  overflow:auto;
+}
+
 p.ev-comp {
   float:left;
 }
@@ -171,6 +187,7 @@ p.bio {
 
 footer{
   position:relative;
+  top:2rem;
   bottom: 0;
   left: 45%;
   background-color:#78BDE7;
